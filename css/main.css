@@ -1,0 +1,14 @@
+/*********************
+css structure 
+normalize.css - it reset css related component from each browsers have
+layout.css - grid and overall layout
+style.css - color and shape related components
+font.css - element that related to font file imported from google font
+responsive.css - media query and element that related to responsiveness of website
+*********************/
+
+@import "./nomralize.css";
+@import "./layout.css";
+@import "./style.css";
+@import "./font.css";
+@import "./responsive.css";
