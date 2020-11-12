@@ -1,0 +1,139 @@
+header {
+  width: 100%;
+  position: relative;
+  background-color: rgb(182, 180, 180);
+  color: white;
+  min-height: 500px;
+}
+
+.container {
+  position: relative;
+  top: -318px;
+  display: grid;
+  z-index: 10;
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 120px;
+  grid-template-rows: 10% 60% auto;
+  grid-template-areas: "hd" "con" "ft";
+}
+
+.contents {
+  width: 1024px;
+  margin: 0 auto;
+  grid-area: con;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  grid-gap: 10px;
+  padding: 0 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  height: 150px;
+  color: white;
+  grid-area: ft;
+  padding: 20px;
+}
+
+.card {
+  width: 126px;
+  height: 126px;
+  background-color: #333;
+  padding: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.navLink {
+  display: flex;
+  padding-top: 30px;
+  margin-left: auto;
+}
+.navLink div {
+  list-style: none;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.navWrapper {
+  grid-area: hd;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 50px;
+  padding: 0 16px;
+  width: 1024px;
+}
+
+.navLink a {
+  color: white;
+  text-decoration: none;
+}
+
+/* 2/3 box */
+#four,
+#seven {
+  width: 45%;
+}
+
+/* four card */
+.fourcard {
+  width: 326px;
+  height: 326px;
+  display: grid;
+  grid-template-columns: repeat(2, 48.5%);
+  grid-template-rows: repeat(2, 48.5%);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.cardsm {
+  background-color: #333;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 158px;
+  height: 158px;
+}
+#five-one {
+  grid-area: 1/1/1/1;
+}
+#five-two {
+  grid-area: 1/2/1/2;
+}
+#five-three {
+  grid-area: 2/1/2/1;
+}
+#five-four {
+  grid-area: 2/2/2/2;
+}
+
+/* quote box */
+#quotes {
+  top: -200px;
+  color: white;
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #333;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

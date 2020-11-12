@@ -1,0 +1,12 @@
+/* variable */
+:root {
+  --main-brand-color: #f5cb5c;
+  --main-dark-color: #353434;
+  --main-bright-color: #e8eddf;
+  --font-h1: 32px;
+  --font-h2: 28px;
+  --font-h3: 24px;
+  --font-h4: 20px;
+  --font-p: 17px;
+  --font-quote: 22px;
+}
