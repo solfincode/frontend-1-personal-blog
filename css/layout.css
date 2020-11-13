@@ -19,7 +19,7 @@ header {
 }
 
 .contents {
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
   grid-area: con;
   color: white;
@@ -90,7 +90,7 @@ footer {
 /* 2/3 box */
 #four,
 #seven {
-  width: 45%;
+  width: 43.7%;
 }
 
 /* four card */
