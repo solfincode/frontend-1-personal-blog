@@ -1,7 +1,11 @@
+body {
+  background-color: var(--main-bright-color);
+}
+
 header {
   width: 100%;
   position: relative;
-  background-color: rgb(182, 180, 180);
+  background-color: var(--main-brand-color);
   color: white;
   min-height: 500px;
 }
@@ -11,22 +15,22 @@ header {
   top: -318px;
   display: grid;
   z-index: 10;
-  width: 1024px;
   margin: 0 auto;
   padding: 0 120px;
-  grid-template-rows: 10% 60% auto;
-  grid-template-areas: "hd" "con" "ft";
+  grid-template-rows: 10% 50% 20% auto;
+  grid-template-areas: "hd" "con" "quo" "ft";
 }
 
 .contents {
   width: 100%;
-  margin: 0 auto;
   grid-area: con;
   color: white;
   display: flex;
   flex-flow: row wrap;
   grid-gap: 10px;
-  padding: 0 16px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 0;
 }
 
 footer {
@@ -39,12 +43,10 @@ footer {
 }
 
 .card {
-  width: 126px;
-  height: 126px;
-  background-color: #333;
-  padding: 100px;
+  width: 360px;
+  height: 360px;
   display: grid;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -69,7 +71,6 @@ footer {
   border-radius: 10px;
   background: black;
   color: white;
-  margin-right: 20px;
   margin-left: auto;
 }
 
@@ -78,8 +79,6 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 50px;
-  padding: 0 16px;
-  width: 1024px;
 }
 
 .navLink a {
@@ -87,16 +86,8 @@ footer {
   text-decoration: none;
 }
 
-/* 2/3 box */
-#four,
-#seven {
-  width: 43.7%;
-}
-
 /* four card */
 .fourcard {
-  width: 326px;
-  height: 326px;
   display: grid;
   grid-template-columns: repeat(2, 48.5%);
   grid-template-rows: repeat(2, 48.5%);
@@ -104,12 +95,11 @@ footer {
   row-gap: 10px;
 }
 .cardsm {
-  background-color: #333;
   display: grid;
   align-items: center;
   justify-content: center;
-  width: 158px;
-  height: 158px;
+  background-color: #333;
+  border-radius: 12px;
 }
 #five-one {
   grid-area: 1/1/1/1;
@@ -126,14 +116,20 @@ footer {
 
 /* quote box */
 #quotes {
-  top: -200px;
+  top: 150px;
   color: white;
   position: relative;
-  width: 1000px;
   height: 300px;
   margin: 0 auto;
   background-color: #333;
   display: grid;
   justify-content: center;
   align-items: center;
+  grid-area: "quo";
+}
+
+.bodyContents {
+  width: 1100px;
+  height: 1600px;
+  background-color: #333;
 }

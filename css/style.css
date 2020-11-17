@@ -10,3 +10,83 @@
   --font-p: 17px;
   --font-quote: 22px;
 }
+
+a {
+  list-style: none;
+}
+
+#one {
+  background: url("https://images.unsplash.com/photo-1604409273943-ed5b1a083a51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#two {
+  background: url("https://images.unsplash.com/photo-1540630387975-98b9630cc103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#three {
+  background: url("https://images.unsplash.com/photo-1515248137880-45e105b710e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#four {
+  background: url("https://images.unsplash.com/photo-1474354503580-955e733d2a7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#five-one {
+  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_genius_nopadding_large.svg");
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#five-two {
+  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_mail_nopadding_large.svg");
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#five-three {
+  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_mail_nopadding_large.svg");
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#five-four {
+  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_mail_nopadding_large.svg");
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#six {
+  background: url("https://images.unsplash.com/photo-1529359744902-86b2ab9edaea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#seven {
+  background: url("https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#eight {
+  background: url("https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#nine {
+  background: url("https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+#ten {
+  background: url("https://images.unsplash.com/photo-1553103291-346188e304d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+}
+
+.caption {
+  width: 340px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
