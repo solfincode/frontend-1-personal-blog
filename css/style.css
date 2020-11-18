@@ -1,18 +1,17 @@
-/* variable */
+/* color and font variable */
 :root {
   --main-brand-color: #f5cb5c;
   --main-dark-color: #353434;
   --main-bright-color: #e8eddf;
-  --font-h1: 32px;
-  --font-h2: 28px;
-  --font-h3: 24px;
+  --font-h1: 72px;
+  --font-h2: 54px;
+  --font-h3: 30px;
   --font-h4: 20px;
   --font-p: 17px;
-  --font-quote: 22px;
 }
 
 a {
-  list-style: none;
+  text-decoration: none;
 }
 
 #one {
@@ -31,38 +30,30 @@ a {
   background: url("https://images.unsplash.com/photo-1474354503580-955e733d2a7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
   background-size: cover;
 }
-#five-one {
-  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_genius_nopadding_large.svg");
-  background-size: auto auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-}
-#five-two {
-  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_mail_nopadding_large.svg");
-  background-size: auto auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-}
-#five-three {
-  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_mail_nopadding_large.svg");
-  background-size: auto auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-}
+#five-one,
+#five-two,
+#five-three,
 #five-four {
-  background: url("https://www.apple.com/v/retail/geniusbar/d/images/geniusbar/buystrip_mail_nopadding_large.svg");
-  background-size: auto auto;
-  background-position: center center;
-  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-content: center;
   width: 100px;
   height: 100px;
 }
+
+#five-one img,
+#five-two img,
+#five-three img,
+#five-four img {
+  width: 45px;
+}
+
+#five-three,
+#five-four {
+  position: relative;
+  top: -20px;
+}
+
 #six {
   background: url("https://images.unsplash.com/photo-1529359744902-86b2ab9edaea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
   background-size: cover;
@@ -86,7 +77,7 @@ a {
 
 .caption {
   width: 340px;
-  padding: 10px;
+  padding: 30px 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
 }

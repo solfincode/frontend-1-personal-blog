@@ -2,10 +2,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Slab:wght@100;400;600&display=swap");
 
 body,
-#name {
+#name,
+#quoteIndex,
+.bodyContents {
   font-family: "Open Sans", sans-serif;
 }
 
-h1 {
+h1,
+#quotes,
+.footer-container,
+.title,
+.header,
+#quoteContent,
+.imgCaption,
+.cardBio h2 {
   font-family: "Roboto Slab", serif;
+}
+
+.header {
+  font-size: var(--font-h3);
+  padding: 30px;
+}
+.title {
+  font-size: var(--font-h1);
+  line-height: 1.4em;
+  font-weight: 100;
+}
+
+.title-bold {
+  font-weight: 600;
+}
+#quoteIndex {
+  font-size: 0.8em;
+}
+
+.bodyContents {
+  font-size: var(--font-p);
+  line-height: 2.2em;
+}
+#quoteContent {
+  font-size: var(--font-h3);
+  line-height: 1.5em;
+  color: black;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontBig {
+  font-size: 100px;
+  margin-top: 30px;
+}
+
+.imgCaption {
+  color: var(--main-dark-color);
+  padding: 10px 0 0 10px;
+  border-left: 8px solid var(--main-dark-color);
 }

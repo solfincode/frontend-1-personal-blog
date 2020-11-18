@@ -15,9 +15,13 @@
   .profile {
     margin: 0 auto;
   }
-
+  .profile img {
+    margin-left: 33px;
+  }
   #quotes {
     width: 300px;
+    font-size: 22px;
+    line-height: 1.5em;
   }
   #four,
   #seven,
@@ -33,17 +37,43 @@
   .cardsm {
     width: 175px;
     height: 175px;
+    transition: all 0.4s ease-in-out;
   }
   footer {
     padding: 0;
   }
-  .navLink {
-    display: none;
-  }
+
   .caption {
     width: 340px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
+  }
+  .caption-longer {
+    width: 340px;
+    color: white;
+    padding: 30px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+
+  .imgContents img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  #quoteContent {
+    width: 74%;
+  }
+  .title {
+    font-size: var(--font-h2);
+  }
+  .title,
+  .bodyContents {
+    padding: 0 10px;
+  }
+  .navLink {
+    padding: 30px 0 0 17px;
   }
 }
 
@@ -54,10 +84,13 @@
     margin: 0 auto;
   }
   .profile {
-    margin: 0 310px;
+    /* margin: 0 310px; */
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .profile img {
+    margin-left: 0;
   }
 
   #four,
@@ -71,15 +104,21 @@
     height: 360px;
   }
 
-  .caption-longer {
-    width: 340px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-  }
   #quotes {
     width: 700px;
+    font-size: 28px;
+    line-height: 1.4em;
+  }
+  .bodyContents {
+    width: 94%;
+  }
+  .imgContents img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+  }
+  #quoteContent {
+    width: 74%;
   }
 }
 
@@ -113,14 +152,17 @@
   }
   #quotes {
     width: 920px;
+    font-size: 42px;
+    line-height: 1.8em;
   }
   #four,
   #seven {
-    width: 60.83%;
+    width: 99.87%;
   }
   .caption-longer {
     width: 710px;
-    padding: 10px;
+    color: white;
+    padding: 30px 10px;
     background-color: rgba(0, 0, 0, 0.6);
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -137,5 +179,16 @@
 
   .caption {
     width: 340px;
+  }
+  .bodyContents {
+    width: 74%;
+  }
+  .imgContents img {
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+  }
+  #quoteContent {
+    width: 74%;
   }
 }
