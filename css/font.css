@@ -4,7 +4,7 @@
 body,
 #name,
 #quoteIndex,
-.bodyContents {
+.blog-paragraph {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -23,6 +23,7 @@ h1,
   font-size: var(--font-h3);
   padding: 30px;
 }
+
 .title {
   font-size: var(--font-h1);
   line-height: 1.4em;
@@ -32,14 +33,16 @@ h1,
 .title-bold {
   font-weight: 600;
 }
+
 #quoteIndex {
   font-size: 0.8em;
 }
 
-.bodyContents {
+.blog-paragraph {
   font-size: var(--font-p);
   line-height: 2.2em;
 }
+
 #quoteContent {
   font-size: var(--font-h3);
   line-height: 1.5em;
