@@ -30,29 +30,6 @@ a {
   background: url("https://images.unsplash.com/photo-1474354503580-955e733d2a7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
   background-size: cover;
 }
-#five-one,
-#five-two,
-#five-three,
-#five-four {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  width: 100px;
-  height: 100px;
-}
-
-#five-one img,
-#five-two img,
-#five-three img,
-#five-four img {
-  width: 45px;
-}
-
-#five-three,
-#five-four {
-  position: relative;
-  top: -20px;
-}
 
 #six {
   background: url("https://images.unsplash.com/photo-1529359744902-86b2ab9edaea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");

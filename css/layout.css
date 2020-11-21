@@ -33,6 +33,7 @@ header {
   padding: 0;
 }
 
+/* footer */
 footer {
   width: 100%;
   background-color: var(--main-dark-color);
@@ -47,6 +48,8 @@ footer {
   text-align: center;
   padding-top: 30px;
 }
+
+/* card */
 .card {
   width: 360px;
   height: 360px;
@@ -61,6 +64,29 @@ footer {
   box-shadow: 20px 15px 15px rgba(0, 0, 0, 0.3);
 }
 
+.cardBio {
+  border-radius: 10px;
+  border: 1px solid #333;
+  line-height: 1.8em;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.bioHeader h2 {
+  margin-right: 30px;
+}
+
+#linkedin span {
+  color: black;
+  top: -8px;
+  position: relative;
+  margin-left: 7px;
+}
+
+/* profile image */
 .profile img,
 .cardBio img {
   border-radius: 100%;
@@ -69,6 +95,7 @@ footer {
   background-color: black;
 }
 
+/* nav area */
 .navLink {
   display: flex;
   padding: 30px 0 0 30px;
@@ -89,7 +116,7 @@ footer {
 .navWrapper {
   grid-area: hd;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   margin-bottom: 50px;
 }
 
@@ -98,7 +125,7 @@ footer {
   text-decoration: none;
 }
 
-/* four card */
+/* 2x2 card */
 .fourcard {
   display: grid;
   grid-template-columns: repeat(2, 48.5%);
@@ -114,6 +141,31 @@ footer {
   border: 2px dotted var(--main-dark-color);
   border-radius: 12px;
 }
+
+#five-one,
+#five-two,
+#five-three,
+#five-four {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+#five-one img,
+#five-two img,
+#five-three img,
+#five-four img {
+  width: 45px;
+}
+
+#five-three,
+#five-four {
+  position: relative;
+  top: -20px;
+}
+
 #five-one {
   grid-area: 1/1/1/1;
 }
@@ -127,7 +179,7 @@ footer {
   grid-area: 2/2/2/2;
 }
 
-/* quote box */
+/* quote in the main page */
 #quotes {
   top: 150px;
   color: black;
@@ -138,7 +190,17 @@ footer {
   justify-content: center;
   align-items: center;
 }
+/* quote content in the blog posts */
+#quoteContent {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
+/* blog post body contents */
 .bodyContents {
   margin: 40px 0 40px 0;
   color: var(--main-dark-color);
@@ -147,23 +209,19 @@ footer {
   margin: 120px 0 30px 0;
 }
 
-.cardBio {
-  border-radius: 10px;
-  border: 1px solid #333;
-  line-height: 1.8em;
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
+/* social sharing button */
+.socialBtn {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row nowrap;
 }
-
-.bioHeader h2 {
-  margin-right: 30px;
+.socialBtn ul {
+  display: flex;
+  margin-left: -59px;
 }
-
-#linkedin span {
-  top: -8px;
-  position: relative;
-  margin-left: 7px;
+.socialBtn li {
+  list-style: none;
+  margin-left: 15px;
+}
+.socialBtn li:nth-child(1) {
+  margin-left: 20px;
 }

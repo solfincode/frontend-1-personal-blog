@@ -9,13 +9,13 @@ body,
 }
 
 h1,
-#quotes,
-.footer-container,
 .title,
 .header,
-#quoteContent,
 .imgCaption,
-.cardBio h2 {
+.cardBio h2,
+.footer-container,
+#quotes,
+#quoteContent {
   font-family: "Roboto Slab", serif;
 }
 
@@ -44,12 +44,6 @@ h1,
   font-size: var(--font-h3);
   line-height: 1.5em;
   color: black;
-  text-align: center;
-  position: relative;
-  margin: 0 auto;
-  display: grid;
-  justify-content: center;
-  align-items: center;
 }
 
 .fontBig {
