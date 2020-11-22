@@ -8,7 +8,7 @@ This is a project assignment for udacity nano degree course. The project is crea
 
 1. structuring html and css folder
 2. wireframe using box element
-3. put real world text
+3. write dummy text for blog post
 4. styling for details(layout, style etc...)
 5. finish
 

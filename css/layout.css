@@ -198,6 +198,10 @@ footer {
   align-items: center;
 }
 
+#quoteContent h2 {
+  line-height: 1.2em;
+}
+
 /* blog post body contents */
 .blog-paragraph {
   margin: 40px 0 40px 0;
