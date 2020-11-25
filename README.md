@@ -14,4 +14,4 @@ This is a project assignment for udacity nano degree course. The project is crea
 
 ## Live Demo Link
 
-https://udacity-project1-personal-blog.netlify.app
+https://udacity-frontend-project1-personal-blog.netlify.app
